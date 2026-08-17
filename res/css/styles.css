@@ -1,0 +1,19 @@
+/** Structural Elements **/
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-fg);
+  overflow: hidden;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/** Textual Elements **/
+
+/** Input Elements **/

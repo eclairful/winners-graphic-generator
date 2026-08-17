@@ -1,0 +1,34 @@
+{
+  "name": "winners-graphic-generator",
+  "version": "0.0.1",
+  "description": "Windows-based electron app that compiles a winners graphic for SSBM tournaments",
+  "keywords": [
+    "ssbm",
+    "super smash bros",
+    "smash",
+    "melee",
+    "TO",
+    "tournament",
+    "ssb"
+  ],
+  "homepage": "https://github.com/eclairful/winners-graphic-generator#readme",
+  "bugs": {
+    "url": "https://github.com/eclairful/winners-graphic-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eclairful/winners-graphic-generator.git"
+  },
+  "license": "GPL-3.0",
+  "author": "eclairful",
+  "type": "commonjs",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "npx electron .",
+    "dist": "npx @electron/packager ./ WinnersGraphicGenerator --platform=win32,linux --out=./dist"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^43.4.0"
+  }
+}

@@ -1,0 +1,8 @@
+:root {
+  --primary-bg: #444;
+  --primary-fg: #e2e2e2;
+}
+
+* {
+  font-family: "melee";
+}
