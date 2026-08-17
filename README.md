@@ -16,12 +16,30 @@ A windows electron app that inserts character portraits, gamertags, & optional s
 
 - [ ] Add content to the first HTML page
 - [ ] Create all the classes & modules
-  - [ ] _TODO: see "Determine class & module structure"_
+  - [ ] **TODO: see "Determine class & module structure"**
 - [ ] Add content to the second HTML page
 
 ### Style
 
 - [ ] Make it look good (10/10 most helpful item on this to-do list 1,000% good job eclair)
+
+## Project Structure
+
+`src/` = where all commonjs electron code goes
+
+`lib/` = where all the modulejs code is
+
+`dist/` = where the packaged electron app gets placed by `@electron/packager`
+
+`res/` = where all the resources used by the BrowserWindow's web content goes
+
+<br>
+
+`res/html`, `res/css`, `res/js` = all the webdev stuff
+
+`res/img` = image resources
+
+`res/fonts` = font resources
 
 ## Compiling from source
 
