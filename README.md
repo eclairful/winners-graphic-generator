@@ -1,4 +1,4 @@
-# winners-graphic-generator
+# winners-graphic-generator (WIP)
 
 A windows electron app that inserts character portraits, gamertags, & optional screenshots into a pre-created winners graphic template.
 
