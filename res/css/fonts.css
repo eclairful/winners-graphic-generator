@@ -1,4 +1,27 @@
+/* ngl I copy & pasted the font css from Melee Ghost Streamer too haha */
+/* thank you, Sheepolution & Readek :3 */
+
 @font-face {
-  font-family: "melee", "Times New Roman", Times, serif;
-  src: url("../fonts/TomsRomanITCbyBT-Regular.otf");
+  font-family: "Deansgate";
+  src: url("../fonts/DeansgateCondensed-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Mario";
+  src: url("../fonts/SuperMario256.ttf");
+}
+
+@font-face {
+  font-family: "FolkMedium";
+  src: url("../fonts/A-OTF-FolkPro-Medium.otf");
+}
+
+@font-face {
+  font-family: "FolkHeavy";
+  src: url("../fonts/A-OTF-FolkPro-Heavy.otf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf");
 }

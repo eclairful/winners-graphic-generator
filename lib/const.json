@@ -1,3 +1,7 @@
 {
-  "debug": true
+  "debug": true,
+  "filePaths": {
+    "settings": "./settings.json",
+    "defaultScreenshotDirInsideHomeDir": "Tournament Winners Graphics"
+  }
 }

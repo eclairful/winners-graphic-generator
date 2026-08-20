@@ -148,4 +148,3 @@ vite.config.ts.timestamp-*
 # Eclair's additions :3
 dist/*
 !dist/InnoSetup
-!dist/InnoSetup/*
